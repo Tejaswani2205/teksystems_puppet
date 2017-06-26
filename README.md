@@ -1,6 +1,6 @@
 DevOps project:
 
-Procedure to accomplish the given project is as follows:
+High level procedure to accomplish the given project is as follows:
 
 Created a VPC with CIDR 10.0.0.0/20 (4096 IP addresses)
 Created a security group with following ports
