@@ -1,10 +1,11 @@
 
 created a VPC with cidr 10.0.0.0/20 (4096 IP address)
 created a security group with following ports
+```
 SSH 22
 HTTP 80
 HTTPS 443
-
+```
 
 
 Configuration management
