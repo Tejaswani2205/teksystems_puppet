@@ -1,6 +1,9 @@
+DevOps project:
 
-created a VPC with cidr 10.0.0.0/20 (4096 IP address)
-created a security group with following ports
+Procedure to accomplish the given project is as follows:
+
+Created a VPC with CIDR 10.0.0.0/20 (4096 IP addresses)
+Created a security group with following ports
 ```
 SSH 22
 HTTP 80
@@ -8,12 +11,24 @@ HTTPS 443
 ```
 
 
-Configuration management
-Deployed puppet server from aws market place
-We can also download puppet package from puppet labs and configure puppet server on ec2 instance.
+Configuration management:
 
-code directory:
-/etc/puppetlabs/code/environments/production/modules
+Deployed puppet server from AWS market place
+(We can also download puppet package from puppet labs and configure puppet server on ec2 instance)
+
+Key pair - Teksystems.pem
+
+puppetadmin@35.164.228.218
+
+Webserver -> ec2-user@52.36.5.205
+
+Then take root access by giving the below command
+sudo su -root
+
+Code Directory:
+/etc/puppetlabs/code/environments/production
+
+Under manifests --> site.pp node code (webserver)
 
 Puppet modules
 vcsrepo 
